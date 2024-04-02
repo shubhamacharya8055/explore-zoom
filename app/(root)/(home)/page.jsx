@@ -6,7 +6,7 @@ export default function Home() {
 
 
   const now = new Date();
-  const time = now.toLocaleTimeString('hi-IN' , {
+  const time = now.toLocaleTimeString('en-IN' , {
     hour: "2-digit", 
     minute: "2-digit"
   })
